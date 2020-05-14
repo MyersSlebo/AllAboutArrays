@@ -9,6 +9,7 @@ public class Main {
         int highestNumber = 10;
         pattern1();
         pattern2();
+        pattern3();
 
 
         int[] array = createNumberArray(size, lowestNumber, highestNumber);
@@ -40,21 +41,38 @@ public class Main {
     }
 
     public static void pattern1() {
-        int l = 6;
-        for (int f = 0; f < l; f = f + 1) {
-            System.out.println("* * * * * *");
+        for (int f = 0; f < 6; f = f + 1) {
+            for (int l = 0; l < 6; l++) {
+                System.out.print("*");
+            }
+            System.out.println();
 
         }
     }
 
     public static void pattern2() {
-        int l = 7;
-        for (int f = 1; f < l; f = f + 1) {
-            System.out.println(f+" "+f+" "+f+" "+f+" "+f+" "+f);
+        for (int f = 1; f < 7; f = f + 1) {
+            for (int l = 0; l < 6; l++) {
+                System.out.print(f);
 
+
+            }
+            System.out.println();
 
         }
 
+
+    }
+
+    public static void pattern3() {
+        for (int f = 1; f < 7; f++) {
+            int l;
+            for (l = 1; l < 7; l++) {
+                System.out.print(l);
+
+            }
+            System.out.println();
+        }
     }
 }
 
