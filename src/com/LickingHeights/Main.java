@@ -7,11 +7,11 @@ public class Main {
         int size = 10;
         int lowestNumber = 0;
         int highestNumber = 10;
+        pattern1();
 
 
         int[] array = createNumberArray(size, lowestNumber, highestNumber);
 
-        
 
     }
 
@@ -38,7 +38,16 @@ public class Main {
         return number;
     }
 
+    public static void pattern1() {
+        int l = 6;
+        for (int f = 0; f < l; f = f + 1) {
+            System.out.println("* * * * * *");
 
-
-
+        }
+    }
 }
+
+
+
+
+
