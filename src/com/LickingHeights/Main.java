@@ -8,6 +8,7 @@ public class Main {
         int lowestNumber = 0;
         int highestNumber = 10;
         pattern1();
+        pattern2();
 
 
         int[] array = createNumberArray(size, lowestNumber, highestNumber);
@@ -44,6 +45,16 @@ public class Main {
             System.out.println("* * * * * *");
 
         }
+    }
+
+    public static void pattern2() {
+        int l = 7;
+        for (int f = 1; f < l; f = f + 1) {
+            System.out.println(f+" "+f+" "+f+" "+f+" "+f+" "+f);
+
+
+        }
+
     }
 }
 
