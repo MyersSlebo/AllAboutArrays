@@ -11,6 +11,7 @@ public class Main {
         pattern2();
         pattern3();
         pattern4();
+        pattern5();
 
 
         int[] array = createNumberArray(size, lowestNumber, highestNumber);
@@ -91,6 +92,7 @@ public class Main {
 
                         System.out.print(l);
                     }
+                    System.out.println();
                 }
             }
         }
